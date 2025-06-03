@@ -1,3 +1,10 @@
+A promise is an object that will produce a single value sometime
+in the future. If the promise is successful, it will produce a
+resolved value, but if something goes wrong then it will produce
+a reason why the promise failed.
+Simply said:- It behaves very much similar to real life promises.
+
+
 const promise= new Promise((res,rej)=>{
     res("hello");
 })
